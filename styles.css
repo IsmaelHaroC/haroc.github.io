@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background: url(/Images/fondo.gif);
+  background-size: cover;
+}
+
+.container {
+  position: relative;
+  width: 1500px;
+  height: 800px;
+  cursor: crosshair;
+  background-size: cover;
+}
+
+#bird {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+img {
+  height: 100px;
+}
+.imagen2 {
+  height: 400px;
+}
+
+#obstacle {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform-origin: bottom;
+  transition: transform 1s;
+}
+.boton {
+  height: 50px;
+}
